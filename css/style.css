@@ -26,8 +26,8 @@ body{
   
 }
 .navbar img{
-    width: 40.42px;
 height: 51px;
+
 }
 .nav {
     display: flex;
@@ -35,7 +35,7 @@ height: 51px;
     align-items: center;
     padding: 6px;
 }
-.nav a{
+.nav a,span{
     color: #fff;
     text-decoration: none;
 }
@@ -43,14 +43,11 @@ height: 51px;
     display: flex;
     align-items: center;
     color: #fff;
+    gap: 10px;
 }
 
 .link{
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.link img{
-    width: 51px;
-    height: 51px;
 }
