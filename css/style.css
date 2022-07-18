@@ -85,3 +85,12 @@ height: 51px;
     width: 56px;
     
 }
+
+hr.break {
+   
+    width: 80%;
+    margin: 25px auto;
+  
+    background: regray;
+    background: #D1D1D1;
+}
