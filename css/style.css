@@ -71,8 +71,10 @@ height: 51px;
     margin-bottom: 30px;
 }
 
-.players{
-
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 29px;
 }
 .player {
     display: flex;
