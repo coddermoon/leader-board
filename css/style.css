@@ -21,6 +21,8 @@ body{
     width:870px;
     margin: auto;
 }
+
+/* navbar section */
 .navbar{
     background-color: #562EFF;
   
@@ -35,19 +37,49 @@ height: 51px;
     align-items: center;
     padding: 6px;
 }
-.nav a,span{
-    color: #fff;
-    text-decoration: none;
-}
+
 .logo {
     display: flex;
     align-items: center;
     color: #fff;
     gap: 10px;
 }
-
 .link{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.nav a,span{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* top player section */
+
+.content {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 40px;
+}
+.title{
+    color: #562EFF
+    ;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.players{
+
+}
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player img{
+    width: 56px;
+    
 }
